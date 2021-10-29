@@ -10,29 +10,22 @@
 			"id": 2,
 			"first_name": "Jane",
 			"last_name": "Doe",
-			"email": null,
 			"phone": "+4915142331789"
 		},
 		{
 			"id": 3,
 			"first_name": "Max",
-			"last_name": null,
 			"email": "john.doe@superchat.de",
 			"phone": "+4915112131789"
 		},
 		{
 			"id": 4,
-			"first_name": null,
 			"last_name": "Mustermann",
-			"email": null,
 			"phone": "+4915115651789"
 		},
 		{
 			"id": 5,
 			"first_name": "Jake",
-			"last_name": null,
-			"email": null,
-			"phone": null
 		}
 	],
 	"conversations": [{
