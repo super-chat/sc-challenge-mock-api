@@ -1,11 +1,104 @@
 {
-  "posts": [
+  "contacts": [
     {
       "id": 1,
-      "title": "hello"
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "john.doe@superchat.de",
+      "phone": "+4915112131789"
+    },
+    {
+      "id": 2,
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": null,
+      "phone": "+4915142331789"
+    },
+    {
+      "id": 3,
+      "first_name": "Max",
+      "last_name": null,
+      "email": "john.doe@superchat.de",
+      "phone": "+4915112131789"
+    },
+    {
+      "id": 4,
+      "first_name": null,
+      "last_name": "Mustermann",
+      "email": null,
+      "phone": "+4915115651789"
+    },
+    {
+      "id": 5,
+      "first_name": "Jake",
+      "last_name": null,
+      "email": null,
+      "phone": null
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "conversations": [
+    {
+      "id": 1,
+      "contactId": 1,
+      "conversationType: "SMS"
+    },
+    {
+      "id": 2,
+      "contactId": 4,
+      "conversationType: "SMS"
+    },
+    {
+      "id": 3,
+      "contactId": 1,
+      "conversationType: "MAIL"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "conversationId": 1,
+      "timestamp": "2021-06-08T07:35:55.621861Z",
+      "source": "USER",
+      "payload": "hello"
+    },
+    {
+      "id": 2,
+      "conversationId": 1,
+      "timestamp": "2021-06-08T07:38:55.621861Z",
+      "source": "CONTACT",
+      "payload": "world"
+    },
+    {
+      "id": 3,
+      "conversationId": 1,
+      "timestamp": "2021-06-08T08:14:55.621861Z",
+      "source": "CONTACT",
+      "payload": "test"
+    },
+    {
+      "id": 4,
+      "conversationId": 1,
+      "timestamp": "2021-06-08T08:21:55.621861Z",
+      "source": "USER",
+      "payload": "bye"
+    },
+    {
+      "id": 5,
+      "conversationId": 2,
+      "timestamp": "2021-06-08T08:30:55.621861Z",
+      "source": "USER",
+      "payload": "cool"
+    },
+    {
+      "id": 6,
+      "conversationId": 3,
+      "timestamp": "2021-06-09T08:30:55.621861Z",
+      "source": "USER",
+      "payload": "hey"
+    }
+  ]
+  "user": {
+    "first_name": "Super",
+    "last_name": "Chat"
   }
 }
